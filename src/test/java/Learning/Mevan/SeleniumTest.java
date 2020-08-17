@@ -18,6 +18,10 @@ public class SeleniumTest {
 	}
 	@Test
 	public void develop1(){
-		System.out.println("develop");
+		System.out.println("develop1");
+	}
+	@Test
+	public void develop1a(){
+		System.out.println("develop1a");
 	}
 }

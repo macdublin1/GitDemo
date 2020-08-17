@@ -20,4 +20,8 @@ public class AppiumTest {
 	public void develop1(){
 		System.out.println("develop");
 	}
+	@Test
+	public void develop1a(){
+		System.out.println("develop1a");
+	}
 }
