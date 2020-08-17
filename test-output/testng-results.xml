@@ -1,48 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Maven Test" duration-ms="88" started-at="2020-08-16T19:45:44Z" finished-at="2020-08-16T19:45:44Z">
+  <suite name="Default suite" duration-ms="69" started-at="2020-08-17T23:40:07 ICT" finished-at="2020-08-17T23:40:07 ICT">
     <groups>
     </groups>
-    <test name="Learning Maven" duration-ms="88" started-at="2020-08-16T19:45:44Z" finished-at="2020-08-16T19:45:44Z">
-      <class name="Learning.Mevan.SeleniumTest">
-        <test-method status="PASS" signature="demo5()[pri:0, instance:Learning.Mevan.SeleniumTest@6a4f787b]" name="demo5" duration-ms="7" started-at="2020-08-17T02:45:44Z" finished-at="2020-08-17T02:45:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demo5 -->
-        <test-method status="PASS" signature="demo6()[pri:0, instance:Learning.Mevan.SeleniumTest@6a4f787b]" name="demo6" duration-ms="3" started-at="2020-08-17T02:45:44Z" finished-at="2020-08-17T02:45:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demo6 -->
-      </class> <!-- Learning.Mevan.SeleniumTest -->
+    <test name="Default test" duration-ms="69" started-at="2020-08-17T23:40:07 ICT" finished-at="2020-08-17T23:40:07 ICT">
       <class name="Learning.Mevan.AppiumTest">
-        <test-method status="PASS" signature="demo1()[pri:0, instance:Learning.Mevan.AppiumTest@604ed9f0]" name="demo1" duration-ms="1" started-at="2020-08-17T02:45:44Z" finished-at="2020-08-17T02:45:44Z">
+        <test-method status="PASS" signature="demo1()[pri:0, instance:Learning.Mevan.AppiumTest@6acdbdf5]" name="demo1" duration-ms="11" started-at="2020-08-17T23:40:07 ICT" finished-at="2020-08-17T23:40:07 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo1 -->
-        <test-method status="PASS" signature="demo2(java.lang.String)[pri:0, instance:Learning.Mevan.AppiumTest@604ed9f0]" name="demo2" duration-ms="4" started-at="2020-08-17T02:45:44Z" finished-at="2020-08-17T02:45:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[www.rediff.ie]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="demo2()[pri:0, instance:Learning.Mevan.AppiumTest@6acdbdf5]" name="demo2" duration-ms="1" started-at="2020-08-17T23:40:07 ICT" finished-at="2020-08-17T23:40:07 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo2 -->
       </class> <!-- Learning.Mevan.AppiumTest -->
-      <class name="Learning.Mevan.MobileTest">
-        <test-method status="PASS" signature="demo3()[pri:0, instance:Learning.Mevan.MobileTest@5e3a8624]" name="demo3" duration-ms="12" started-at="2020-08-17T02:45:44Z" finished-at="2020-08-17T02:45:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demo3 -->
-        <test-method status="PASS" signature="demo4()[pri:0, instance:Learning.Mevan.MobileTest@5e3a8624]" name="demo4" duration-ms="3" started-at="2020-08-17T02:45:44Z" finished-at="2020-08-17T02:45:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demo4 -->
-      </class> <!-- Learning.Mevan.MobileTest -->
-    </test> <!-- Learning Maven -->
-  </suite> <!-- Maven Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
