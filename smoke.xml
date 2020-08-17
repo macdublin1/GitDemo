@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Maven Test">
+
+  <test name="Learning Maven">
+  <parameter name= "URL2" value = "www.rediff.ie"/>
+    <classes>
+      <class name="Learning.Mevan.MobileTest"/>
+      <class name="Learning.Mevan.AppiumTest"/>
+ 
+    </classes>
+    
+    
+  </test>
+</suite>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Maven Test" duration-ms="54" started-at="2020-08-17T17:50:58 ICT" finished-at="2020-08-17T17:50:58 ICT">
+    <groups>
+    </groups>
+    <test name="Learning Maven" duration-ms="54" started-at="2020-08-17T17:50:58 ICT" finished-at="2020-08-17T17:50:58 ICT">
+      <class name="Learning.Mevan.AppiumTest">
+        <test-method status="PASS" signature="demo1()[pri:0, instance:Learning.Mevan.AppiumTest@4e9ba398]" name="demo1" duration-ms="1" started-at="2020-08-17T17:50:58 ICT" finished-at="2020-08-17T17:50:58 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method status="PASS" signature="demo2(java.lang.String)[pri:0, instance:Learning.Mevan.AppiumTest@4e9ba398]" name="demo2" duration-ms="0" started-at="2020-08-17T17:50:58 ICT" finished-at="2020-08-17T17:50:58 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.rediff.ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+      </class> <!-- Learning.Mevan.AppiumTest -->
+      <class name="Learning.Mevan.MobileTest">
+        <test-method status="PASS" signature="demo3()[pri:0, instance:Learning.Mevan.MobileTest@2286778]" name="demo3" duration-ms="5" started-at="2020-08-17T17:50:58 ICT" finished-at="2020-08-17T17:50:58 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo3 -->
+        <test-method status="PASS" signature="demo4()[pri:0, instance:Learning.Mevan.MobileTest@2286778]" name="demo4" duration-ms="0" started-at="2020-08-17T17:50:58 ICT" finished-at="2020-08-17T17:50:58 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo4 -->
+      </class> <!-- Learning.Mevan.MobileTest -->
+    </test> <!-- Learning Maven -->
+  </suite> <!-- Maven Test -->
+</testng-results>
