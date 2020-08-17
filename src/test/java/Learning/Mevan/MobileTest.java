@@ -16,4 +16,7 @@ public class MobileTest {
 	public void demo4a(){
 		System.out.println("demo4a");
 	}
+	public void develop1(){
+		System.out.println("develop");
+	}
 }

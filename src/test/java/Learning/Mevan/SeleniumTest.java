@@ -16,4 +16,8 @@ public class SeleniumTest {
 	public void demo6a(){
 		System.out.println("demo6a");
 	}
+	@Test
+	public void develop1(){
+		System.out.println("develop");
+	}
 }
