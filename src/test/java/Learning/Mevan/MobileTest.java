@@ -12,4 +12,8 @@ public class MobileTest {
 	public void demo4(){
 		System.out.println("demo4");
 	}
+	@Test
+	public void demo4a(){
+		System.out.println("demo4a");
+	}
 }
